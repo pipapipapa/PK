@@ -1,7 +1,7 @@
 import unittest
 from main import get_one_to_many, get_many_to_many, get_dbs_starting_with_a, get_db_max_sizes, get_sorted_many_to_many, Database, DataTable, TableDatabase
 
-class TestYourModule(unittest.TestCase):
+class TestDataBase(unittest.TestCase):
 
     def test_get_one_to_many(self):
         databases = [Database(1, 'TestDB')]
